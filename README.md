@@ -2,6 +2,14 @@
 
 $$\frac{\pi^2}{6} = \sum_{n=1}^{\infty}\frac{1}{n^2}$$
 
+# Pi by inverse tangent Taylor series
+
+$$\arctan x = x - \frac{x^3}{3} + \frac{x^5}{5} - \frac{x^7}{7} + \frac{x^9}{9} - \cdots$$
+$$= \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n + 1}}{2n + 1}$$
+$$x \in [-1, 1]$$
+$$\frac{\pi}{4} = \arctan 1
+= \sum_{n=0}^{\infty} \frac{(-1)^n}{2n + 1}$$
+
 # Pi by inscribed and circumscribed polygons
 
 ## Inscribed
