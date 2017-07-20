@@ -74,7 +74,7 @@ $$L = \frac{l\sin\frac{\pi}{n}}{2\sin\frac{\pi}{n}\cos\frac{\pi}{n}}
 
 $$l^2 = 2L^2 - 2L^2cos\frac{\pi - 2\pi}{n}
 = L^2\left(2 - 2\cos\left(\pi - \frac{2\pi}{n}\right)\right)$$
-$$\cos\left(\pi - \frac{2\pi}{n}\right) = \cos\left[2\left(\frac{\pi}{2} - \frac{\pi}{n}\right)\right]
+$$\cos\left(\pi - \frac{2\pi}{n}\right) = \cos\left(2\left(\frac{\pi}{2} - \frac{\pi}{n}\right)\right)
 = 1 - 2\sin^2\left(\frac{\pi}{2} - \frac{\pi}{n}\right)
 = 1 - 2\cos^2\frac{\pi}{2}$$
 $$l^2 = L^2\left[2 - 2\left(1 - 2\cos^2\frac{\pi}{n}\right)\right]
@@ -131,3 +131,22 @@ $$V_2
 = \int\limits_0^{2\pi} \int\limits_0^{R} r drd\theta
 = \int\limits_0^{2\pi} \frac{1}{2}R^2 d\theta
 = \pi R^2$$
+
+# Trigonometric integrals
+
+$$\int \sin^2\theta d\theta = \int \frac{1-\cos{2\theta}}{2} d\theta
+= \frac{1}{2}(\theta - \sin\theta\cos\theta) + C$$
+$$\int \cos^2\theta d\theta = \int \frac{1+\cos{2\theta}}{2} d\theta
+= \frac{1}{2}(\theta + \sin\theta\cos\theta) + C$$
+
+$$\int \sin^3\theta d\theta = \int (1-\cos^2\theta)\sin\theta d\theta
+= \int (\sin\theta - \cos^2\theta\sin\theta) d\theta
+= -\cos\theta + \frac{1}{3}\cos^3\theta + C$$
+$$\int \cos^3\theta d\theta = \int (1-\sin^2\theta)\cos\theta d\theta
+= \int (\cos\theta - \sin^2\theta\cos\theta) d\theta
+= \sin\theta - \frac{1}{3}\sin^3\theta + C$$
+
+$$\int \sin^4\theta d\theta = \int \left(\frac{1-\cos{2\theta}}{2}\right)^2 d\theta
+= \int \frac{1}{4}(1 - 2\cos{2\theta} + \cos^2\theta) d\theta
+= \int \frac{1}{4}(1 - 2\cos{2\theta} + \frac{1 + \cos{4\theta}}{2}) d\theta
+$$
