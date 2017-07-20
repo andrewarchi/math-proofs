@@ -25,22 +25,22 @@ $$P = ln
 ### Law of cosines
 
 $$l^2 = 2r^2 - 2r^2cos\frac{2\pi}{n}
-= 2r^2(1 - cos\frac{2\pi}{n})
-= 4r^2(\frac{1 - cos\frac{2\pi}{n}}{2})
+= 2r^2\left(1 - cos\frac{2\pi}{n}\right)
+= 4r^2\left(\frac{1 - cos\frac{2\pi}{n}}{2}\right)
 = 4r^2\sin^2{\frac{\pi}{n}}$$
 $$l = 2r\sin\frac{\pi}{n} = r\sqrt{2 - 2\cos\frac{2\pi}{n}}$$
 $$P = 2nrsin\frac{\pi}{n}$$
 
 ### Pythagorean theorem
 
-$$r^2 = (\frac{l}{2})^2 + h^2$$
+$$r^2 = \left(\frac{l}{2}\right)^2 + h^2$$
 $$h^2 = r^2 - \frac{1}{4}l^2
 = r^2 - r^2\sin^2\frac{\pi}{n}
-= r^2(1 - \sin^2\frac{\pi}{n})
+= r^2\left(1 - \sin^2\frac{\pi}{n}\right)
 = r^2\cos^2\frac{\pi}{n}$$
 $$h = r\cos\frac{\pi}{n}$$
 $$A = \frac{1}{2}lhn
-= \frac{1}{2}(2r\sin\frac{\pi}{n})(rcos\frac{\pi}{n})(n)
+= \frac{1}{2}\left(2r\sin\frac{\pi}{n}\right)\left(rcos\frac{\pi}{n}\right)n
 = nr^2\sin\frac{\pi}{n}\cos\frac{\pi}{n}
 = \frac{1}{2}nr^2\sin\frac{2\pi}{n}$$
 
@@ -61,23 +61,23 @@ $$\pi = \lim_{n\to\infty} \frac{1}{2}n\sin\frac{2\pi}{n}
 
 ### Law of sines
 
-$$\frac{\sin\frac{\pi}{n}}{L} = \frac{\sin(\pi - \frac{2\pi}{n})}{l}$$
-$$\sin(\pi - \frac{2\pi}{n}) = \sin[2(\frac{\pi}{2} - \frac{\pi}{n})]
-= 2\sin(\frac{\pi}{2} - \frac{\pi}{n})\cos(\frac{\pi}{2} - \frac{\pi}{n})
+$$\frac{\sin\frac{\pi}{n}}{L} = \frac{\sin\left(\pi - \frac{2\pi}{n}\right)}{l}$$
+$$\sin\left(\pi - \frac{2\pi}{n}\right) = \sin\left[2\left(\frac{\pi}{2} - \frac{\pi}{n}\right)\right]
+= 2\sin\left(\frac{\pi}{2} - \frac{\pi}{n}\right)\cos\left(\frac{\pi}{2} - \frac{\pi}{n}\right)
 = 2\sin\frac{\pi}{n}\cos\frac{\pi}{n}$$
 $$L = \frac{l\sin\frac{\pi}{n}}{2\sin\frac{\pi}{n}\cos\frac{\pi}{n}}
 = \frac{1}{2}l\sec\frac{\pi}{n}
-= \frac{1}{2}(2r\sin\frac{\pi}{n})\sec\frac{\pi}{n}
+= \frac{1}{2}\left(2r\sin\frac{\pi}{n}\right)\sec\frac{\pi}{n}
 = r\tan\frac{\pi}{n}$$
 
 ### Law of cosines
 
 $$l^2 = 2L^2 - 2L^2cos\frac{\pi - 2\pi}{n}
-= L^2(2 - 2\cos(\pi - \frac{2\pi}{n}))$$
-$$\cos(\pi - \frac{2\pi}{n}) = \cos[2(\frac{\pi}{2} - \frac{\pi}{n})]
-= 1 - 2\sin^2(\frac{\pi}{2} - \frac{\pi}{n})
+= L^2\left(2 - 2\cos\left(\pi - \frac{2\pi}{n}\right)\right)$$
+$$\cos\left(\pi - \frac{2\pi}{n}\right) = \cos\left[2\left(\frac{\pi}{2} - \frac{\pi}{n}\right)\right]
+= 1 - 2\sin^2\left(\frac{\pi}{2} - \frac{\pi}{n}\right)
 = 1 - 2\cos^2\frac{\pi}{2}$$
-$$l^2 = L^2[2 - 2(1 - 2\cos^2\frac{\pi}{n})]
+$$l^2 = L^2\left[2 - 2\left(1 - 2\cos^2\frac{\pi}{n}\right)\right]
 = 4L^2\cos^2\frac{\pi}{n}$$
 $$l = 2L\cos\frac{\pi}{n}$$
 $$2r\sin\frac{\pi}{n} = 2L\cos{\pi}{n}$$
@@ -85,11 +85,11 @@ $$L = r\tan\frac{\pi}{n}$$
 
 ### Pythagorean theorem
 
-$$L^2 = (\frac{l}{2})^2 + H^2$$
+$$L^2 = \left(\frac{l}{2}\right)^2 + H^2$$
 $$H^2 = r^2tan^2\frac{\pi}{n} - r^2\sin^2\frac{\pi}{n}
-= r^2(\tan^2\frac{\pi}{n} - \sin^2\frac{\pi}{n})$$
+= r^2\left(\tan^2\frac{\pi}{n} - \sin^2\frac{\pi}{n}\right)$$
 $$tan^2\frac{\pi}{n} - \sin^2\frac{\pi}{n} = tan^2\frac{\pi}{n} - \cos^2\frac{\pi}{2}\tan\frac{\pi}{2}
-= \tan^2\frac{\pi}{n}(1 - \cos^2\frac{\pi}{n})
+= \tan^2\frac{\pi}{n}\left(1 - \cos^2\frac{\pi}{n}\right)
 = \sin^2\frac{\pi}{n}tan^2\frac{\pi}{n}$$
 $$H^2 = R^2sin^2\frac{\pi}{n}\tan^2{\pi}{n}$$
 $$H = r\sin\frac{\pi}{n}\tan\frac{\pi}{n}$$
@@ -105,11 +105,11 @@ $$\pi = \lim_{n\to\infty} n\tan\frac{\pi}{n}$$
 Area
 
 $$A = nH\frac{L}{2} + A_l$$
-$$  = n(r\sin\frac{\pi}{n}\tan\frac{\pi}{n})(r\sin\frac{\pi}{n}) + A_l$$
+$$  = n\left(r\sin\frac{\pi}{n}\tan\frac{\pi}{n}\right)\left(r\sin\frac{\pi}{n}\right) + A_l$$
 $$  = nr^2\sin^2\frac{\pi}{n}\tan\frac{\pi}{n} + A_l$$
 $$  = nr^2\sin^2\frac{\pi}{n}\tan\frac{\pi}{n} + nr^2\sin\frac{\pi}{n}\cos\frac{\pi}{n}$$
-$$  = nr^2\sin\frac{\pi}{n}(\sin\frac{\pi}{n}\tan\frac{\pi}{n} + \cos\frac{\pi}{n})$$
-$$  = nr^2\tan\frac{\pi}{n}(\sin^2\frac{\pi}{n} + \cos^2\frac{\pi}{n})$$
+$$  = nr^2\sin\frac{\pi}{n}\left(\sin\frac{\pi}{n}\tan\frac{\pi}{n} + \cos\frac{\pi}{n}\right)$$
+$$  = nr^2\tan\frac{\pi}{n}\left(\sin^2\frac{\pi}{n} + \cos^2\frac{\pi}{n}\right)$$
 $$  = nr^2\tan\frac{\pi}{n}$$
 $$\pi{r^2} = \lim_{n\to\infty} nr^2\tan\frac{\pi}{n}$$
 $$\pi = \lim_{n\to\infty} n\tan\frac{\pi}{n}$$
